@@ -1,0 +1,15 @@
+{
+  "short_name": "Banco do Balas",
+  "name": "Banco do Balas",
+  "icons": [
+    {
+      "src": "/images/logo_BB.png",
+      "sizes": "300x300",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
