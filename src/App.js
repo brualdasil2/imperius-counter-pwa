@@ -43,8 +43,8 @@ function App() {
         <div className="p2Area">
           <button className="counterButton" onClick={() => increaseP2Score(1)}>{p2Score}</button>
         </div>
-        <img src={mandrakeP1Img} className="mandrakeLeft" onClick={mandrakeP1}/>
-        <img src={mandrakeP2Img} className="mandrakeRight" onClick={mandrakeP2}/>
+        <img src={mandrakeP1Img} className="mandrakeLeft" onClick={mandrakeP1} alt="Mandrake"/>
+        <img src={mandrakeP2Img} className="mandrakeRight" onClick={mandrakeP2} alt="Mandrake"/>
       </div>
     </>
   )
