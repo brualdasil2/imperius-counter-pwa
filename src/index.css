@@ -23,6 +23,25 @@ body {
     flex-direction: row;
 }
 
+.menu {
+    justify-self: center;
+    align-self: center;
+    width: 40vw;
+    height: 70vh;
+    background-color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: hpFont;
+    font-size: 30px;
+    box-shadow: 5px 5px 10px #460104;
+}
+
 .counterButton {
     font-family: hpFont;
     font-style: italic;
@@ -32,6 +51,31 @@ body {
     color: #460104;
     width: fit-content;
     height: fit-content;
+}
+
+.winnerText {
+    font-family: hpFont;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.inputLabel {
+    font-family: hpFont;
+    font-size: 20px;
+}
+
+#maxScoreInput {
+    text-align: center;
+    margin-top: 5px;
+    font-family: hpFont;
+}
+
+.playButton {
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgb(214, 192, 165);
+    border: none;
+    padding: 5px 5px;
 }
 
 .p1Area {
@@ -69,3 +113,4 @@ body {
     bottom: 0;
     right: 0;
 }
+
