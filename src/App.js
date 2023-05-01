@@ -19,7 +19,7 @@ function App() {
   const [fastIncrement, setFastIncrement] = useState(0)
   const [mandrakeP1Img, setMandrakeP1Img] = useState(mandrakeNormalImg)
   const [mandrakeP2Img, setMandrakeP2Img] = useState(mandrakeNormalImg)
-  const [victorySound, setVictorySound] = useState(new Audio("./sounds/win_song.mp3"))
+  const [victorySound] = useState(new Audio("./sounds/win_song.mp3"))
 
   const mandrakeSound = new Audio("./sounds/mandrake_scream.mp3")
   const score4Sound = new Audio("./sounds/avada_kedavra.mp3")
